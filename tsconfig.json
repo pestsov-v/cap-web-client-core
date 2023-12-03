@@ -19,7 +19,13 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@UI": ["./src/core/ui/index.ts"],
+      "@UI/Types": ["./types/core/ui/index.d.ts"],
+      "@Packages": ["./src/core/packages/packages.ts"],
+      "@Core/*": ["./src/core/*"],
+      "@Core/Types": ["./types/core/index.d.ts"],
+      "@CoreSymbols": ["./src/core/ioc/core.ioc.symbols.ts"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
