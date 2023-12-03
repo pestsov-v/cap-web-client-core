@@ -1,3 +1,4 @@
+export {Autocomplete, AutocompleteItem} from '@nextui-org/react'
 import { Container, ContainerModule, inject, injectable } from 'inversify';
 
 export const inversify = {
@@ -6,3 +7,4 @@ export const inversify = {
   Container: Container,
   ContainerModule: ContainerModule
 }
+

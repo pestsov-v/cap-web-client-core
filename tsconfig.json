@@ -22,10 +22,14 @@
       "@/*": ["./src/*"],
       "@UI": ["./src/core/ui/index.ts"],
       "@UI/Types": ["./types/core/ui/index.d.ts"],
+      "@Utility/Types": ["./types/core/utility/utility.d.ts"],
+      "@Packages/Types": ["./types/core/packages/packages.d.ts"],
       "@Packages": ["./src/core/packages/packages.ts"],
       "@Core/*": ["./src/core/*"],
       "@Core/Types": ["./types/core/index.d.ts"],
-      "@CoreSymbols": ["./src/core/ioc/core.ioc.symbols.ts"]
+      "@CoreSymbols": ["./src/core/ioc/core.ioc.symbols.ts"],
+      "@NextUI": ["./src/core/ui/NextUI/index.ts"],
+      "@NextUI/Types": ["./types/ui/NextUI/index.d.ts"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
